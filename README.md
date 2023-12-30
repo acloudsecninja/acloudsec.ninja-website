@@ -20,3 +20,8 @@ Used as the template for the website acloudsec.ninja-website
 - Once above requirements are met.
 
 1. Run the command "streamlit run website.py"  
+
+
+## How to stop website before pushing new code 
+
+1. Run the command deactivate

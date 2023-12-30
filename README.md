@@ -11,7 +11,7 @@ Used as the template for the website acloudsec.ninja-website
 
 3. run the command " python3 -m venv .website "
 
-4. run the command " source website/bin/activate "  to activate directory
+4. run the command " source .website/bin/activate "  to activate directory
 
 5. Once in the directory you will run pip install streamlit to install the dependances in the python directory
 

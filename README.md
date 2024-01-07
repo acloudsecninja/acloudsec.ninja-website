@@ -17,7 +17,8 @@ Used as the template for the website acloudsec.ninja-website
 
 
 ### To Do List
+1. Figure out why images are not working as background.
 
-1. Next step is to setup javascript 
+2. Next step is to setup javascript 
 
-2. Setup react? Maybe?
+3. Setup react? Maybe?

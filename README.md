@@ -14,3 +14,10 @@ Used as the template for the website acloudsec.ninja-website
 ## How to stop website before pushing new code 
 
 - To be Updated
+
+
+### To Do List
+
+1. Next step is to setup javascript 
+
+2. Setup react? Maybe?

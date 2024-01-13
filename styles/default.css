@@ -2,6 +2,7 @@ body {
     margin: 0;
     margin-top: 50px;
     font-family: 'Times New Roman', Times, serif;
+    background-color: #000000;
 }
 header {
     display: flex;
@@ -11,20 +12,21 @@ header {
     right: 0;
     height: 50px;
     line-height: 50px;
-    background-color: #eee;
+    background-color: #000000;
 }
 
 header * {
     display: inline;
     height: 50px;
+    
 }
 
 header ul {
-    padding: 0;
+    padding: 1;
 }
 
 header li {
-    margin-left: 20px;
+    margin-inline: 20px;
 }
 
 section {
@@ -35,47 +37,42 @@ section {
     align-items: center;
     text-align: center;
     
-    background-size: cover; /* Add this line */
-    background-position: center center; /* Add this line */
-    background-repeat: no-repeat; /* Add this line */
-    background-attachment: fixed; /* Add this line */
+    background-color: #000000;
 }
 
-#home .profile-img {
-    width: 300px;
+#home .image_logo {
+    width: 500px;
     border-radius: 50%;
+    border-color: green;
+    border-width: 0cqh;
 }
 
 footer {
     text-align: center;
-    padding: 50px;
+    padding: 25px
 }
 
 #home h1 {
     font-size: 3em;
+    color: #026806;
 }
 
-section h2 {
-    font-size: 2.5em;
+main h2 {
+    font-size: 2.0em;
+    color: #026806;
 }
 
-section h3 {
-    font-size: 1.5em;
+main h3 {
+    font-size: 2.0em;
+    color: #026806;
 }
 
-header a {
-    text-decoration: none;
-    color: black;
+main h4 {
+    font-size: 2.0em;
+    color: #026806;
 }
 
-#home {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("images\image_logo.png");
-}
-
-#courses {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("images\cloud_sec_with_world.jpg");
-}
-
-#services {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
+nav {
+    font-size: 2.0em;
+    color: #1601ff;
 }

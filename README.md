@@ -22,3 +22,6 @@ Used as the template for the website acloudsec.ninja-website
 2. Next step is to setup javascript 
 
 3. Setup react? Maybe?
+
+
+Copyright - A Cloud Sec Ninja - All Rights Reserved

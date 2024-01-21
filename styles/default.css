@@ -46,6 +46,11 @@ section {
     background-color: #000000;
 }
 
+section li {
+    text-align: left;
+    /* Make bullet point text align left. */
+}
+
 contactus {
     height: 100vh;
     display: flex;

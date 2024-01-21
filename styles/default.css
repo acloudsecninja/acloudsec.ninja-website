@@ -63,8 +63,6 @@ contactus {
 #home .image_logo {
     width: 500px;
     border-radius: 50%;
-    border-color: rgb(255, 1, 1);
-    border-width: 1em;
     box-shadow: 10px 5px 5px rgb(4, 255, 0);
 }
 

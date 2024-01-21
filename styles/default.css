@@ -6,12 +6,13 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-size: 1em;
     font-weight: 400;
-    background-color: #000000;
-    color: #026806;
+    background-color: #121212;
+    color: #4CAF50;
 }
 
 footer {
     color: #ffffff;
+    background-color: #1e1e1e;
 }
 
 header {
@@ -21,12 +22,11 @@ header {
     left: 0;
     right: 0;
     height: 50px;
-    background-color: #000000;
+    background-color: #1e1e1e;
 }
 
 header * {
     display: inline;
-    
 }
 
 header ul {
@@ -43,7 +43,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #000000;
+    background-color: #121212;
 }
 
 section li {
@@ -57,13 +57,13 @@ contactus {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #000000;
+    background-color: #121212;
 }
 
 #home .image_logo {
     width: 500px;
     border-radius: 50%;
-    box-shadow: 10px 5px 5px rgb(4, 255, 0);
+    box-shadow: 10px 5px 5px #00C853;
 }
 
 footer {
@@ -93,5 +93,27 @@ main h4 {
 nav {
     font-size: 1.5em;
     font-weight: 400;
-    color: #1601ff;
 }
+
+
+/* ----- Link Colors ----- */
+/* unvisited link */
+a:link {
+    color: #388E3C;
+}
+
+/* visited link */
+a:visited {
+    color: #1B5E20;
+}
+
+/* mouse over link */
+a:hover {
+    color: #81C784;
+}
+
+/* selected link */
+a:active {
+    color: #00C853;
+}
+/* ----------------------- */

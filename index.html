@@ -1,40 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Title of Website -->
 <head>
-    <meta charset="utf-8">
-    <title>A Cloud Sec Ninja - Home</title>
-    <link rel="stylesheet" href="default.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Cloud Sec Ninja Security Training</title>
+    <style>
+        body {
+            font-family: 'Roboto Mono', monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #00ff00; /* Green text color */
+            text-align: center;
+            
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 0.5em;
+        }
+
+        section {
+            max-width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #333;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #00ff00; /* Green text color */
+        }
+
+        p {
+            color: #ccc;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav a {
+                margin: 0.5em 0;
+            }
+
+            section {
+                max-width: 100%;
+            }
+        }
+    </style>
 </head>
+<body>
 
-<!-- Website Navigation -->
-<header>
+    <header>
+        <h1>A Cloud Sec Ninja Training</h1>
+        <h3>Master the Cloud, Secure the Future.</h3>
+        <h4>Ninja-Grade Security Training</h4>
+    </header>
+
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="https://www.twitch.tv/acloudsecninja/" target="_blank">Twitch Stream</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
-        </ul>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="services.html">Services</a>
+        <a href="https://www.twitch.tv/acloudsecninja/" target="_blank">Twitch Stream</a>
+        <a href="contactus.html">Contact Us</a>
     </nav>
-</header>
 
-<!-- Main Content of Page -->
-<main>
-    <section id="home">
-        <div class="section-inner">
-            <img src="images\acloudsecninja-logo.png" class="image_logo">
-            <h2>A Cloud Sec Ninja Training.</h2>
-            <h3>Master the Cloud, Secure the Future.</h3>
-            <h4>Ninja-Grade Security Training</h4>
-        </div>
-    </section>
-</main>
+    <img src="images\acloudsecninja-logo.png" class="image_logo" class="center">
 
 <!-- Default Footer Section of the Website -->
 <footer>
@@ -42,7 +103,8 @@
     <a href="https://www.linkedin.com/in/ryan-w-bb825869/">LinkedIn</a>
     <a href="https://discord.gg/Q6HaN5khRn/">Discord</a>
     <a href="https://www.youtube.com/@acloudsecninja">YouTube</a>
-    <h3>Copyright - A Cloud Sec Ninja - All Rights Reserved</h3>
+    <p>&copy; 2024 A Cloud Sec Ninja - All Rights Reserved</p>
 </footer>
 
+</body>
 </html>

@@ -1,0 +1,23 @@
+{
+  "name": "acloudsec.ninja-website",
+  "version": "1.0.0",
+  "description": "Used as the template for the website acloudsec.ninja-website\r # Website Name \r  - acloudsec.ninja",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^6.0.13"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^0.10.2",
+    "@aws-amplify/backend-cli": "^0.9.7",
+    "aws-cdk": "^2.124.0",
+    "aws-cdk-lib": "^2.124.0",
+    "constructs": "^10.3.0",
+    "typescript": "^5.3.3"
+  }
+}

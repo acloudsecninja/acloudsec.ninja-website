@@ -5,29 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Cloud Sec Ninja Security Training</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&family=Roboto:wght@100&display=swap');
         body {
             font-family: 'Roboto Mono', monospace;
             margin: 0;
             padding: 0;
             background-color: #1a1a1a;
-            color: #00ff00; /* Green text color */
+            font-weight: 400;
+            color: #4CAF50; /* Green text color */
         }
 
         header {
             background-color: #333;
-            color: #fff;
+            color: #4CAF50;
             padding: 1em;
             text-align: center;
+        }
+
+        header .image_logo {
+            max-width: 100%;
+            max-height: 100%;
         }
 
         nav {
             background-color: #333;
             padding: 1em;
             text-align: center;
+            font-weight: 700;
         }
 
+        /* ----- Link Colors ----- */
+        /* unvisited link */
+        a:link {
+            color: #66BB6A;
+        }
+
+        /* visited link */
+        a:visited {
+            color: #388E3C;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: #81C784;
+        }
+
+        /* selected link */
+        a:active {
+            color: #00C853;
+        }
+        /* ----------------------- */
+
         nav a {
-            color: #fff;
             text-decoration: none;
             padding: 0.5em 1em;
             margin: 0 0.5em;
@@ -42,17 +71,21 @@
             border-radius: 8px;
         }
 
-        h2 {
-            color: #00ff00; /* Green text color */
+        h1, h2, h3, h4, h5, h6 {
+            color: #4CAF50; /* Green text color */
+        }
+
+        h1, h2 {
+            font-weight: 700;
         }
 
         p {
-            color: #ccc;
+            color: #4CAF50;
         }
 
         footer {
             background-color: #333;
-            color: #fff;
+            color: #4CAF50;
             padding: 1em;
             text-align: center;
             position: fixed;
@@ -80,9 +113,15 @@
 <body>
 
     <header>
+        <!-- Rasters like PNGs can get pixelated on big screens. If you have an svg/vector version, take advantage of it! -->
+        <img src="images/acloudsecninja-logo.png" class="image_logo center" alt="A Cloud Sec Ninja Logo">
+
+        <!-- Remove headings if they are in the logo. Add them back if using just the cloud. -->
+        <!--
         <h1>A Cloud Sec Ninja Training</h1>
         <h3>Master the Cloud, Secure the Future.</h3>
         <h4>Ninja-Grade Security Training</h4>
+        -->
     </header>
 
     <nav>
@@ -100,6 +139,8 @@
             <a href=https://form.jotform.com/240120549361044>
                 Click Here to Fill Out a Quick Form!
             </a>
+        </div>
+    </section>
 
 <!-- Default Footer Section of the Website -->
 <footer>

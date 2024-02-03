@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&family=Roboto:wght@100&display=swap');
+
+body {
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    font-weight: 400;
+    background-color: #121212;
+    color: #4CAF50;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #1e1e1e;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #1e1e1e;
+}
+
+header * {
+    display: inline;
+}
+
+header ul {
+    padding: 1;
+}
+
+header li {
+    margin-inline: 20px;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #121212;
+}
+
+section li {
+    text-align: left;
+    /* Make bullet point text align left. */
+}
+
+contactus {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #121212;
+}
+
+#home .image_logo {
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px #00C853;
+}
+
+footer {
+    text-align: center;
+    padding: 25px
+}
+
+main h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+main h2 {
+    font-size: 1.75em;
+    font-weight: 400;
+}
+
+main h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+main h4 {
+    font-size: 1.25em;
+}
+
+nav {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+
+/* ----- Link Colors ----- */
+/* unvisited link */
+a:link {
+    color: #388E3C;
+}
+
+/* visited link */
+a:visited {
+    color: #1B5E20;
+}
+
+/* mouse over link */
+a:hover {
+    color: #81C784;
+}
+
+/* selected link */
+a:active {
+    color: #00C853;
+}
+/* ----------------------- */

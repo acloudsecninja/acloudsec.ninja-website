@@ -1,5 +1,5 @@
 # A Cloud Security Ninja LLC Website
-Currently Live at https://acloudsec.ninj 
+Currently Live at https://acloudsec.ninja
 
 
 ## How to Startup local Python Environment for Testing and Validation

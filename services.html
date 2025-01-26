@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Cloud Security Ninja</title>
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&family=Roboto:wght@100&display=swap');
         body {
@@ -89,7 +90,6 @@
             padding-top: 1em;
             padding-bottom: 1em;
             text-align: center;
-            position: fixed;
             bottom: 0;
             width: 100%;
         }
@@ -125,13 +125,32 @@
         <a href="contactus.html">Contact Us</a>
     </nav>
 
-
-    <section id="courses">
+    <section id="services">
         <div class="section-inner">
-            <h1>Current Courses</h1>
+            <h1>Services</h1>
             <ul>
                 <li>
-                    <p>To be Determined</p>
+                    <p>Cloud Security Consulting - Free 15 Minute Consultation
+                        <stripe-buy-button
+                         buy-button-id="buy_btn_1QiSXCGG2rcO70Eavk6THsfv"
+                         publishable-key="pk_live_51OaX6mGG2rcO70EaTxmlRW0IuCVCjJ3pbfeW63A2LxInwCWD6uRWhoL68FMk7OUZk1G4X0xiCrMjZ3HZJmz4p0IA00ne4rIAHs"
+                       </stripe-buy-button>
+                    </p>
+                    <li>
+                    <p>Cloud Security Training Services - Subscription - Billing Monthly
+                        <stripe-buy-button
+                         buy-button-id="buy_btn_1QlNtlGG2rcO70Eajuye3Gjy"
+                         publishable-key="pk_live_51OaX6mGG2rcO70EaTxmlRW0IuCVCjJ3pbfeW63A2LxInwCWD6uRWhoL68FMk7OUZk1G4X0xiCrMjZ3HZJmz4p0IA00ne4rIAHs"
+                       </stripe-buy-button>
+                    </p>
+                </li>
+                <li>
+                    <p>Cloud Security Consulting Services - Subscription - Billing Monthly
+                        <stripe-buy-button
+                         buy-button-id="buy_btn_1QlNuXGG2rcO70EaeWvOFXfT"
+                         publishable-key="pk_live_51OaX6mGG2rcO70EaTxmlRW0IuCVCjJ3pbfeW63A2LxInwCWD6uRWhoL68FMk7OUZk1G4X0xiCrMjZ3HZJmz4p0IA00ne4rIAHs"
+                       </stripe-buy-button>
+                    </p>
                 </li>
             </ul>
         </div>
@@ -146,5 +165,6 @@
     <a href="https://github.com/acloudsecninja">Github</a>
     <p>&copy; 2025 A Cloud Security Ninja LLC - All Rights Reserved</p>
 </footer>
+
 
 </html>

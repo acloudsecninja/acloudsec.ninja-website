@@ -1,5 +1,5 @@
-# A Cloud Security Ninja LLC Website
-Currently Live at https://acloudsec.ninja
+# A Cloud Security Ninja LLC Website (deprecated)
+No Longer Live @ https://acloudsec.ninja - This is the old code for the site
 
 
 ## How to Startup local Python Environment for Testing and Validation
